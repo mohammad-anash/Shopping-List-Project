@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "averta cy w10";
+}
+
+html,
+body {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #191d2b;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 500;
+  -webkit-text-stroke: 1px #7cdd43;
+  color: transparent;
+}
+
+h1 > span {
+  color: #7cdd43;
+}
+
+input {
+  background-color: #191d2b;
+  border: 2px solid #7cdd43;
+  border-radius: 5px;
+  color: #7cdd43;
+  font: 22px;
+  padding: 5px;
+}
+
+button {
+  background-color: #7cdd43;
+  color: #191d2b;
+  border: 0;
+  padding: 5px;
+  border: 0;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.list {
+  width: 360px;
+  padding: 10px;
+  background-color: #454e56;
+  margin-top: 7px;
+  border-radius: 5px;
+}
+.store {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  color: white;
+}
+
+.para {
+  color: #7cdd43;
+  cursor: pointer;
+}
+
+.input::placeholder {
+  color: #7cdd43;
+}
